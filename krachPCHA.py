@@ -31,9 +31,11 @@ class PCHA_KRACH(object):
         
         # self.records is a dictionary structured as follows:
         # team :: opponent :: "wins" | "losses" :: int
-        self.records = {}
+        self.records = {} 
+        self.team_records = {} # Holds overall records for teams
         for row in self.season.index:
             self.records[self.season['Team'][row]] = {}
+            self.team_records[self.season['Team'][row]] = {}
             for col in list(self.season)[1:]:
                 if col == self.season['Team'][row]:
                     continue
@@ -47,7 +49,15 @@ class PCHA_KRACH(object):
                     "losses": int(losses),
                     "ties/shootout": int(ties_and_so)
                     }
-        
+                try:
+                    self.team_records[self.season['Team'][row]]['wins'] += int(wins)
+                    self.team_records[self.season['Team'][row]]['losses'] += int(losses)
+                    self.team_records[self.season['Team'][row]]['ties/shootout'] += int(ties_and_so)
+                except KeyError:
+                    self.team_records[self.season['Team'][row]]['wins'] = int(wins)
+                    self.team_records[self.season['Team'][row]]['losses'] = int(losses)
+                    self.team_records[self.season['Team'][row]]['ties/shootout'] = int(ties_and_so)
+                    
     def KRACH_ranking(self, output = 'none'):
         # Calculates the KRASH rankings of the teams based on their records.
         # 
@@ -58,3 +68,6 @@ class PCHA_KRACH(object):
         
         ranking = []
         
+        for team in self.records.keys():
+            for opponent in self.record[team].keys():
+                pass
