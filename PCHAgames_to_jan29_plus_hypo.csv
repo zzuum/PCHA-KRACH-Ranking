@@ -1,20 +1,17 @@
 Date,Home Team,Home Goals,Away Team,Away Goals,Shootout
 9/30/2016,SJSU,4,SCU,1,no
 10/15/2016,SCU,12,UCSC,2,no
-10/22/2016,SFSU,1,SCU,12,no
 10/28/2016,SRJC,3,SCU,2,no
 11/11/2016,SCU,3,Cal Lutheran,4,no
 11/12/2016,SCU,1,SJSU,2,no
 10/28/2016,UC Davis,1,SJSU,9,no
 11/4/2016,SRJC,15,UC Davis,7,no
-11/18/2016,SFSU,2,UC Davis,19,no
 11/19/2016,UC Davis,10,SRJC,12,no
 10/21/2016,SJSU,4,SRJC,1,no
 10/22/2016,SRJC,7,SJSU,4,no
 11/11/2016,UCSC,1,SRJC,8,no
 11/18/2016,SRJC,13,UCSC,6,no
 11/13/2016,SJSU,6,Cal Lutheran,3,no
-10/13/2016,SFSU,6,UCSC,9,no
 01/20/17,SCU,9,SRJC,6,no
 01/14/17,Cal Lutheran,19,UCSC,1,no
 01/20/17,UC Davis,15,UCSC,4,no
@@ -22,7 +19,10 @@ Date,Home Team,Home Goals,Away Team,Away Goals,Shootout
 01/29/17,UC Davis,15,SRJC,0,no
 01/29/17,Stanford,7,UCSC,4,no
 01/29/17,Stanford,7,UCSC,4,no
-01/29/17,SCU,6,Stanford,3,
-01/29/17,Stanford,5,SFSU,4,
-01/29/17,Stanford,3,SFSU,1,
-01/29/17,Stanford,8,SFSU,4,
+01/29/17,SCU,6,Stanford,3,no
+01/29/17,Stanford,5,UC Davis,10,no
+02/04/17,UC Davis,16,SRJC,6,no
+02/04/17,SRJC,1,SCU,2,no
+02/04/17,SRJC,0,SJSU,2,no
+02/04/17,SRJC,10,UCSC,7,no
+01/14/17,UCSC,1,Stanford,0,no
